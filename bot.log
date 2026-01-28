@@ -1,0 +1,16 @@
+2026-01-28 14:24:26,407 | INFO | Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-01-28 14:24:26,840 | INFO | Order Response: {}
+2026-01-28 14:25:55,108 | INFO | Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-01-28 14:25:55,559 | ERROR | API Error: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-01-28 14:26:18,911 | INFO | Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 100.0}
+2026-01-28 14:26:19,082 | ERROR | API Error: APIError(code=-2019): Margin is insufficient.
+2026-01-28 14:26:25,067 | INFO | Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-01-28 14:26:25,251 | ERROR | API Error: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-01-28 14:27:06,671 | INFO | Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2026-01-28 14:27:06,843 | INFO | Order Response: {'orderId': 12011995179, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJf89b970ecf6044a0de132f', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1769590626793}
+2026-01-28 14:28:29,220 | INFO | Order Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 50000.0, 'timeInForce': 'GTC'}
+2026-01-28 14:28:29,695 | ERROR | API Error: APIError(code=-4024): Limit price can't be lower than 84445.43.
+2026-01-28 14:28:49,767 | INFO | Order Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 90000.0, 'timeInForce': 'GTC'}
+2026-01-28 14:28:50,239 | ERROR | API Error: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-01-28 14:29:01,969 | INFO | Order Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.003, 'price': 90000.0, 'timeInForce': 'GTC'}
+2026-01-28 14:29:02,141 | INFO | Order Response: {'orderId': 12012005859, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ528ecb8963b82511e08299', 'price': '90000.00', 'avgPrice': '0.00', 'origQty': '0.003', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1769590742090}
